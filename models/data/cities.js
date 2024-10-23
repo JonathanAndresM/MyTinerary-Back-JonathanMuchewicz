@@ -93,7 +93,7 @@ let cities = [
       continent: "Africa",
       description: "A beautiful coastal city known for its harbour and Table Mountain.",
       currency: "South African Rand (ZAR)",
-      image: "https://plus.unsplash.com/premium_photo-1697730061063-ad499e343f26?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://images.unsplash.com/photo-1576485375217-d6a95e34d043?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       lenguage: "English",
       timeZone: "UTC+2",
       airport: "Cape Town International Airport (CPT)",
