@@ -1,7 +1,7 @@
 const not_found_handler = (req,res,next) => {
     return res.status(404).json({
         success: false,
-        messagge: `La peticion con el metodo ${req.method} con la ruta ${req.url} - Not Found`
+        messagge: `The request with the method ${req.method} with the path ${req.url} - Not Found`
     })
 }
 
