@@ -15,7 +15,8 @@ let cities = [
       airport: "John F. Kennedy International Airport (JFK)",
       publicTransport: ["Metro", "Bus", "Ferry"],
       localFestival: "New Year's Eve in Times Square",
-      famousFood: "Pizza"
+      famousFood: "Pizza",
+      itineraries: []
     },
     {
       city: "Tokyo",
@@ -29,7 +30,8 @@ let cities = [
       airport: "Narita International Airport (NRT)",
       publicTransport: ["Metro", "Bus", "Shinkansen"],
       localFestival: "Sanja Matsuri",
-      famousFood: "Sushi"
+      famousFood: "Sushi",
+      itineraries: []
     },
     {
       city: "Paris",
@@ -43,7 +45,8 @@ let cities = [
       airport: "Charles de Gaulle Airport (CDG)",
       publicTransport: ["Metro", "Bus", "Tram"],
       localFestival: "Bastille Day",
-      famousFood: "Baguette"
+      famousFood: "Baguette",
+      itineraries: []
     },
     {
       city: "Buenos Aires",
@@ -57,7 +60,8 @@ let cities = [
       airport: "Ezeiza International Airport (EZE)",
       publicTransport: ["Subte", "Bus", "Train"],
       localFestival: "Buenos Aires Tango Festival",
-      famousFood: "Asado"
+      famousFood: "Asado",
+      itineraries: []
     },
     {
       city: "Sydney",
@@ -71,7 +75,8 @@ let cities = [
       airport: "Sydney Kingsford Smith Airport (SYD)",
       publicTransport: ["Metro", "Bus", "Ferry"],
       localFestival: "Vivid Sydney",
-      famousFood: "Meat Pie"
+      famousFood: "Meat Pie",
+      itineraries: []
     },
     {
       city: "Rome",
@@ -85,7 +90,8 @@ let cities = [
       airport: "Leonardo da Vinci–Fiumicino Airport (FCO)",
       publicTransport: ["Metro", "Bus", "Tram"],
       localFestival: "Festa della Repubblica",
-      famousFood: "Pasta Carbonara"
+      famousFood: "Pasta Carbonara",
+      itineraries: []
     },
     {
       city: "Cape Town",
@@ -99,7 +105,8 @@ let cities = [
       airport: "Cape Town International Airport (CPT)",
       publicTransport: ["Bus", "Train"],
       localFestival: "Cape Town Carnival",
-      famousFood: "Braai"
+      famousFood: "Braai",
+      itineraries: []
     },
     {
       city: "Dubai",
@@ -113,7 +120,8 @@ let cities = [
       airport: "Dubai International Airport (DXB)",
       publicTransport: ["Metro", "Bus", "Taxi"],
       localFestival: "Dubai Shopping Festival",
-      famousFood: "Shawarma"
+      famousFood: "Shawarma",
+      itineraries: []
     },
     {
       city: "London",
@@ -127,7 +135,8 @@ let cities = [
       airport: "Heathrow Airport (LHR)",
       publicTransport: ["Tube", "Bus", "Train"],
       localFestival: "Notting Hill Carnival",
-      famousFood: "Fish and Chips"
+      famousFood: "Fish and Chips",
+      itineraries: []
     },
     {
       city: "Rio de Janeiro",
@@ -141,7 +150,8 @@ let cities = [
       airport: "Galeão International Airport (GIG)",
       publicTransport: ["Metro", "Bus", "Tram"],
       localFestival: "Rio Carnival",
-      famousFood: "Feijoada"
+      famousFood: "Feijoada",
+      itineraries: []
     },
     {
       city: "Moscow",
@@ -155,7 +165,8 @@ let cities = [
       airport: "Sheremetyevo International Airport (SVO)",
       publicTransport: ["Metro", "Bus", "Tram"],
       localFestival: "Moscow City Day",
-      famousFood: "Borscht"
+      famousFood: "Borscht",
+      itineraries: []
     },
     {
       city: "Istanbul",
@@ -169,7 +180,8 @@ let cities = [
       airport: "Istanbul Airport (IST)",
       publicTransport: ["Metro", "Bus", "Tram"],
       localFestival: "Istanbul International Film Festival",
-      famousFood: "Kebab"
+      famousFood: "Kebab",
+      itineraries: []
     },
     {
       city: "Berlin",
@@ -183,7 +195,8 @@ let cities = [
       airport: "Berlin Brandenburg Airport (BER)",
       publicTransport: ["U-Bahn", "S-Bahn", "Bus"],
       localFestival: "Berlin International Film Festival",
-      famousFood: "Currywurst"
+      famousFood: "Currywurst",
+      itineraries: []
     },
     {
       city: "Toronto",
@@ -197,7 +210,8 @@ let cities = [
       airport: "Toronto Pearson International Airport (YYZ)",
       publicTransport: ["Metro", "Bus", "Streetcar"],
       localFestival: "Toronto International Film Festival",
-      famousFood: "Poutine"
+      famousFood: "Poutine",
+      itineraries: []
     },
     {
       city: "Mexico City",
@@ -211,7 +225,8 @@ let cities = [
       airport: "Mexico City International Airport (MEX)",
       publicTransport: ["Metro", "Bus", "Trolebus"],
       localFestival: "Dia de los Muertos",
-      famousFood: "Tacos"
+      famousFood: "Tacos",
+      itineraries: []
     }
   ];
 
