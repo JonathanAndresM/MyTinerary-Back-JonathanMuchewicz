@@ -14,6 +14,7 @@ let schema = new Schema({
     publicTransport: { type: Array, required: true },
     localFestival: { type: String, required: true },
     famousFood: { type: String, required: true },
+    itineraries: [{type: Schema.Types.ObjectId, ref: "itineraries"}]
 }, {
     timestamps: true
 })
