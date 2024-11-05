@@ -1,10 +1,8 @@
 import City from "../../models/City.js";
 import Itinerary from "../../models/Itinerary.js";
-import findDocument from "../findDocument.js";
 import handleResponse from "../handleResponse.js"
 
 let allCities = async (req, res, next) => {
-    //return await findDocument(City, req, res, next)
     try {
         let all = await City.find().populate({
             path: "itineraries",
@@ -27,7 +25,6 @@ let cityById = async (req, res, next) => {
                 itineraries
             }
         })
-        //handleResponse(res, all, 200)
     } catch (error) {
         next(error)
     }
